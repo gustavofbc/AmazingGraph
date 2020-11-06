@@ -1,0 +1,95 @@
+* {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h1, a, button, p, span{
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 36px;
+}
+
+.container{
+    margin: 0px 20px;
+}
+
+.container-title{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-title h1 {
+    color: #D2872C;
+}
+
+.container-title h1:hover{
+    color:  #b16f1f;
+}
+
+.container-navbar a {
+    color: #766F68;
+    margin: 4px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.container-navbar a:hover{
+    color: #5a5550;
+}
+
+.container-image{
+    position: absolute;
+    padding-left: 38%;
+    margin-top: 5%;
+    z-index: -9999;
+}
+
+.container-text {
+    max-width: 450px;
+    margin: 50px;
+}
+
+.container-text p {
+    font-size: 58px;
+    font-weight: 700;
+    color: #766F68;
+    margin-bottom: 25px;
+}
+
+.container-text-span {
+    max-width: 350px;
+}
+
+.container-text-span span {
+    font-size: 22px;
+    color: #766F68;
+}
+
+.container-text button {
+    margin-top: 50px;
+}
+
+.button-start {
+    background-color:  #D2872C;
+    color: #FFF;
+    font-size: 20px;
+    border-radius: 8px;
+    width: 225px;
+    height: 48px;
+    border: none;
+    font-weight: 600;
+    transition: 2s;
+}
+
+.button-start:hover {
+    background-color:  #b16f1f;
+}
